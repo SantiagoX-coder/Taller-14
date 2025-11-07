@@ -6,8 +6,6 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner idk = new Scanner(System.in);
-        Persona persona = new Persona ("");
-        persona.presentarse();
         System.out.println("Presente el nombre del profesor: ");
         String nombre = idk.nextLine();
         System.out.println("Cual es la materia da: ");
