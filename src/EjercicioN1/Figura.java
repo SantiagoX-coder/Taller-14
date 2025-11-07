@@ -1,14 +1,10 @@
 package EjercicioN1;
 
-public class Figura {
+public abstract class Figura {
 
-    public double calcularArea() {
-        return 0;
-
-    }
+    public abstract double calcularArea();
 
     public void mostrarDetalles() {
-        System.out.println("El area de la figura es: " + calcularArea());
-
+        System.out.println("El área de la figura es: " + calcularArea());
     }
 }
